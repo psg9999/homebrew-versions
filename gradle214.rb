@@ -1,4 +1,4 @@
-class Gradle2141 < Formula
+class Gradle214 < Formula
   desc "Gradle build automation tool"
   homepage "https://www.gradle.org/"
   url "https://downloads.gradle.org/distributions/gradle-2.14.1-bin.zip"

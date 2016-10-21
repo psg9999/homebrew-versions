@@ -14,6 +14,7 @@ class Gradle2141 < Formula
   end
 
   test do
-    system "#{bin}/gradle", "-version"
+    ENV["GRADLE_USER_HOME"] = testpath
+    assert_match "Gradle #{version}", shell_output("#{bin}/gradle --version")
   end
 end
